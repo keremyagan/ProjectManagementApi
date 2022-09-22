@@ -220,46 +220,73 @@ client.get_viewer_tasks()
 Example Response:
 ```json
 {
-    'message': {
-        '0': {
-            'project_name': 'Example Project Name',
-            'status': 'active',
-            'created': '2022-09-21T16:57:51.694000',
-            'owners': ['example2@example.com', 'jessica@example.com'],
-            'viewers': ['danny@example.com', 'michael@example.com', 'david@example.com']
-        },
-        '1': {
-            'project_name': 'Example Project Name',
-            'title': 'Example Title',
-            'content': 'Example Content',
-            'status': 'Created',
-            'created': '2022-09-21T20:31:52.887000',
-            'startdate': None,
-            'enddate': None,
-            'owners': ['example2@example.com', 'jessica@example.com'],
-            'viewers': ['danny@example.com', 'michael@example.com', 'david@example.com']
-        },
-        '2': {
-            'project_name': 'Example Project Name 4',
-            'status': 'active',
-            'created': '2022-09-21T22:01:34.210000',
-            'owners': ['example2@example.com', 'jessica@example.com'],
-            'viewers': ['danny@example.com', 'michael@example.com', 'david@example.com']
-        },
-        '3': {
-            'project_name': 'Example Project Name 4',
-            'title': 'Example Title',
-            'content': 'Example Content',
-            'status': 'Created',
-            'created': '2022-09-21T22:01:56.227000',
-            'startdate': None,
-            'enddate': None,
-            'owners': ['example2@example.com', 'jessica@example.com'],
-            'viewers': ['danny@example.com', 'michael@example.com', 'david@example.com']
-        }
-    }
+   "message":{
+      "0":{
+         "project_name":"Example Project Name",
+         "status":"active",
+         "created":"2022-09-21T16:57:51.694000",
+         "owners":[
+            "example2@example.com",
+            "jessica@example.com"
+         ],
+         "viewers":[
+            "danny@example.com",
+            "michael@example.com",
+            "david@example.com"
+         ]
+      },
+      "1":{
+         "project_name":"Example Project Name",
+         "title":"Example Title",
+         "content":"Example Content",
+         "status":"Created",
+         "created":"2022-09-21T20:31:52.887000",
+         "startdate":"None",
+         "enddate":"None",
+         "owners":[
+            "example2@example.com",
+            "jessica@example.com"
+         ],
+         "viewers":[
+            "danny@example.com",
+            "michael@example.com",
+            "david@example.com"
+         ]
+      },
+      "2":{
+         "project_name":"Example Project Name 4",
+         "status":"active",
+         "created":"2022-09-21T22:01:34.210000",
+         "owners":[
+            "example2@example.com",
+            "jessica@example.com"
+         ],
+         "viewers":[
+            "danny@example.com",
+            "michael@example.com",
+            "david@example.com"
+         ]
+      },
+      "3":{
+         "project_name":"Example Project Name 4",
+         "title":"Example Title",
+         "content":"Example Content",
+         "status":"Created",
+         "created":"2022-09-21T22:01:56.227000",
+         "startdate":"None",
+         "enddate":"None",
+         "owners":[
+            "example2@example.com",
+            "jessica@example.com"
+         ],
+         "viewers":[
+            "danny@example.com",
+            "michael@example.com",
+            "david@example.com"
+         ]
+      }
+   }
 }
-
 ```
 
 ### Get Comments
@@ -269,22 +296,22 @@ client.get_comments(project_name='Example Project',title='Example Title')
 Example Response:
 ```json
 {
-    'message': {
-        '1': {
-            'project_name': 'Example Project',
-            'title': 'Example Title',
-            'created': '2022-09-21T17:13:35.427000',
-            'from': 'john@example.com',
-            'comment': 'example comment 1'
-        },
-        '2': {
-            'project_name': 'Example Project',
-            'title': 'Example Title',
-            'created': '2022-09-21T19:22:09.259000',
-            'from': 'john@example.com',
-            'comment': 'example comment 2'
-        }
-    }
+   "message":{
+      "1":{
+         "project_name":"Example Project",
+         "title":"Example Title",
+         "created":"2022-09-21T17:13:35.427000",
+         "from":"john@example.com",
+         "comment":"example comment 1"
+      },
+      "2":{
+         "project_name":"Example Project",
+         "title":"Example Title",
+         "created":"2022-09-21T19:22:09.259000",
+         "from":"john@example.com",
+         "comment":"example comment 2"
+      }
+   }
 }
 ```
 
