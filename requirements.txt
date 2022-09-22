@@ -1,0 +1,8 @@
+redis==4.3.3
+fastapi_login==1.8.2
+fastapi==0.85.0
+pydantic==1.9.2
+configparser==3.8.1
+pymongo==4.2.0
+dnspython==2.2.1
+requests==2.28.1
