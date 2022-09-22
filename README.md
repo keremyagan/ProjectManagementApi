@@ -44,18 +44,18 @@
 
 [TOC]
 
-#Project Details
-##API 
+# Project Details
+## API 
 Fastapi was used on API side .
 Redis was used to set expiration time for tokens.
 Fastapi_login was used to create token .
 Pydantic was used to create models.
 
-##Database
+## Database
 MongoDB was used for Database operations.
 Inserting , finding , updating methods were  used.
 
-##Config
+## Config
 Config file includes some arrangements.
 On config.ini file :
 - Token expiration time,
@@ -63,13 +63,13 @@ On config.ini file :
 - Mongo server configurations,
 - API response messages are adjustable.
 
-##Client
+## Client
 A class has been created for clients to use the API.
 Client can use clients.py to use API easily. Otherwise client can create own class with Requests . The cookie should be used because the API uses login cookies for login required functions.
 
 # Example Codes
 
-##Register
+## Register
 ```python
 client = Client()
 client.register(name='John',surname='Survey',email='john@example.com',password='ExamplePassword')
@@ -87,7 +87,7 @@ client = Client()
 client.password_reset(name='John',email='john@example.com',new_password='ExampleNewPassword')
 ```
 
-##Create Project
+## Create Project
 ```python
 client.create_project(project_name='Example Project Name',
                       owners=['john@example.com','david@example.com'],
@@ -100,7 +100,7 @@ client.create_project(project_name='Example Project Name',
 - Status must be active or archived . 
 - Startdate and Enddate is not required . Default is None.
 - When the project will be saved, utc time uses for 'created' value in database
-##Create Task
+## Create Task
 ```python
 client.create_task(project_name='Example Project Name',title='Example Task Title',
                    content='Example Task Content',status='active',
