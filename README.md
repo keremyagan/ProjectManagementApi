@@ -35,7 +35,7 @@
 
 ![](https://camo.githubusercontent.com/38f5db5524ba43e7262dfbca1f7d3631ba127fb1596785dfd707d5fc671821c9/687474703a2f2f466f7254686542616467652e636f6d2f696d616765732f6261646765732f6d6164652d776974682d707974686f6e2e737667)
 
-![](https://cdn.iconscout.com/icon/free/png-256/redis-3-1175053.png) ![](https://cdn.iconscout.com/icon/free/png-256/mongodb-5-1175140.png) ![](https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+![](https://cdn.iconscout.com/icon/free/png-256/redis-3-1175053.png) ![](https://cdn.iconscout.com/icon/free/png-256/mongodb-5-1175140.png) ![](https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png) ![](https://img.shields.io/github/stars/keremyagan/ProjectManagementApi) ![](https://img.shields.io/github/forks/keremyagan/ProjectManagementApi) ![](https://img.shields.io/github/license/keremyagan/ProjectManagementApi)
 
 
 **Table of Contents**
