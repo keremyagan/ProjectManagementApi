@@ -155,35 +155,56 @@ client.get_viewer_projects()
 Example Response:
 ```json
 {
-    '0': {
-        'project_name': 'Example Proje Name',
-        'status': 'active',
-        'created': '2022-09-21T16:57:51.694000',
-        'owners': ['jessica@example.com', 'dany@example.com'],
-        'viewers': ['viewers@gmail.com', 'lusy@example.com', 'captain@example.com']
-    },
-    '1': {
-        'project_name': 'Example Proje Name',
-        'title': 'Example Title',
-        'content': 'Example Content',
-        'status': 'Created',
-        'created': '2022-09-21T17:02:14.544000',
-        'startdate': None,
-        'enddate': None,
-        'owners': ['jessica@example.com', 'dany@example.com'],
-        'viewers': ['viewers@gmail.com', 'lusy@example.com', 'captain@example.com']
-    },
-    '2': {
-        'project_name': 'Example Proje Name',
-        'title': 'Example Title 2',
-        'content': 'Example Content',
-        'status': 'Created',
-        'created': '2022-09-21T20:31:52.887000',
-        'startdate': None,
-        'enddate': None,
-        'owners': ['jessica@example.com', 'dany@example.com'],
-        'viewers': ['viewers@gmail.com', 'lusy@example.com', 'captain@example.com']
-    }
+	"0": {
+		"project_name": "Example Proje Name",
+		"status": "active",
+		"created": "2022-09-21T16:57:51.694000",
+		"owners": [
+			"jessica@example.com",
+			"dany@example.com"
+		],
+		"viewers": [
+			"viewers@gmail.com",
+			"lusy@example.com",
+			"captain@example.com"
+		]
+	},
+	"1": {
+		"project_name": "Example Proje Name",
+		"title": "Example Title",
+		"content": "Example Content",
+		"status": "Created",
+		"created": "2022-09-21T17:02:14.544000",
+		"startdate": "None",
+		"enddate": "None",
+		"owners": [
+			"jessica@example.com",
+			"dany@example.com"
+		],
+		"viewers": [
+			"viewers@gmail.com",
+			"lusy@example.com",
+			"captain@example.com"
+		]
+	},
+	"2": {
+		"project_name": "Example Proje Name",
+		"title": "Example Title 2",
+		"content": "Example Content",
+		"status": "Created",
+		"created": "2022-09-21T20:31:52.887000",
+		"startdate": "None",
+		"enddate": "None",
+		"owners": [
+			"jessica@example.com",
+			"dany@example.com"
+		],
+		"viewers": [
+			"viewers@gmail.com",
+			"lusy@example.com",
+			"captain@example.com"
+		]
+	}
 }
 
 ```
