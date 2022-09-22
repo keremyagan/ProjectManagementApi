@@ -40,7 +40,6 @@
 
 **Table of Contents**
 
-[TOCM]
 - [Project Management App](#project-management-app)
   * [General Info About Project](#general-info-about-project)
     + [Features](#features)
@@ -64,9 +63,6 @@
     + [Get Viewers Cart](#get-viewers-cart)
     + [Get Comments](#get-comments)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-[TOC]
 
 # Project Details
 ## API 
